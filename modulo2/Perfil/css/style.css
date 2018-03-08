@@ -11,17 +11,12 @@ figure{
 	border: solid 7px #E6E6E6;
 	height: 200px;
     width: 200px;
-    background-repeat: no-repeat;
-    background-position: 50%;
     border-radius: 50%;
-    background-size: 100% auto;
 }
 .bandera{
 	border: solid 7px #fff;
 	height: 35px;
     width: 35px;
-    background-repeat: no-repeat;
-    background-position: 50%;
     border-radius: 50%;
     background-size: 100% auto;
     position: absolute;
@@ -42,7 +37,7 @@ figure{
 	font-size: 20px;
 }
 .descripcion{
-	padding: 0px 40px 0px 40px;
+	padding: 0px 40px;
 	color: #585858;
 }
 .redesSociales{
