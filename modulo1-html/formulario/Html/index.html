@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+<body>
+	<div id="formulario">
+		<p>Nombre</p>
+		<input type="text" name="nombre">
+		<p>Apellido</p>
+		<input type="text" name="apellido">
+		<p>E-mail</p>
+		<input type="text" name="email">
+	</div>
+	<div id="genero">
+		<p>Genero</p>
+		<input type="radio" name="genero" value="F"> <label>Femenino</label>
+		<input type="radio" name="genero" value="M"> <label>Maculino</label>	
+	</div>
+	<div>
+		<p>Nacionalidad</p>
+		<select>
+			<option value="1">Argentina</option>
+			<option value="2">Colombia</option>
+			<option value="3">Chile</option>
+			<option value="4">Peru</option>
+		</select>
+	</div>
+	<div>
+		<p>Temas que le interesan</p>
+		<input type="checkbox" name="intereses"> Infraestructura
+		<input type="checkbox" name="intereses"> Programación web
+		<input type="checkbox" name="intereses"> Programación mobile
+		<input type="checkbox" name=""> Acepta los términos y condiciones
+	</div>
+	<div id="botones">
+		<input type="submit" value="Cancelar"> 
+		<input type="submit" value="Enviar"> 
+	</div>
+</body>
+</html>
