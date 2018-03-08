@@ -4,14 +4,16 @@
 	display: inline-block;
 }
 
-.navBar{
+.navBar {
 	display: inline-block;
 }
-li{
+
+li {
 	list-style: none;
 	display: inline-block;
 }
-a{
+
+a {
 	text-decoration: none;
 	color: black;
 	padding-left: 20px;

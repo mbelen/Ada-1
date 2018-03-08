@@ -1,0 +1,42 @@
+section{
+	border: solid 2px black;
+}
+.containerForm{
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.formulario-1 input{
+	border: 1px solid black;
+	width: 200px;
+	height: 20px;
+}
+.option{
+    border: solid 1px black;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+}
+.formulario-2 div{
+	display: block;
+	padding-top: 20px;
+}
+.formulario .first{
+	padding-top: 0px;
+}
+.font{
+	font-family: Comic Sans MS;
+}
+.botones{
+	margin-top: 25px;
+}
+.botones input{
+	font-family: Comic Sans MS;
+	font-size: 15px;
+	padding: 5px 25px 5px 25px;
+	border: solid 1px black;
+	background-color: #A4A4A4;
+}
+.botonMargen{
+	margin-left: 30px;
+}
