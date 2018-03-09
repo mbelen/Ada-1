@@ -24,11 +24,19 @@ h1{
 	margin-top: 20px;
 }
 a{
+/*	box-sizing: border-box; el padding y border de ese elemento no incrementan su ancho */
 	text-decoration: none;
 	background: black;
 	color: #fff;
 	padding: 2px 50px;
 	margin-left: 50px;
+}
+.home{
+	margin-left: 0px;
+}
+.container{
+	width: auto;
+	margin: auto;
 }
 section.mainBaner{
 	text-align: center;
@@ -41,11 +49,10 @@ section.mainBaner{
 }
 .baner2{
 	display: inline-block;
-	padding: 0px;
-	margin: 0px;
 }
 .bannerCarrousel{
-	margin: 50px 0px;
+	text-align: center;
+	margin: 40px 0px;
 }
 .categorias{
 	text-align: center;	
@@ -59,9 +66,15 @@ section.mainBaner{
 	margin: 0px 60px;
 }
 footer{
+	max-width: 1000px;
+	height: 300px;
 	background: pink;
-	margin-top: 50px;
+	margin: auto;
 }
 footer img{
-	height: 300px;
+	height: 200px;
+	margin: auto;
+}
+figure{
+	margin-top: 70px;
 }
