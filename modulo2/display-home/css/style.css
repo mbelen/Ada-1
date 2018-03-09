@@ -1,0 +1,67 @@
+header.logo{
+    text-align: center;
+}
+.logo img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo1{
+	margin-right: 400px;
+}
+.logo2{
+	margin-left: 400px;
+}
+h1{
+	display: inline-block;
+	color: hotpink;
+	font-size: 50px;
+	padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.navBar{
+	text-align: center;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	background: black;
+	color: #fff;
+	padding: 2px 50px;
+	margin-left: 50px;
+}
+section.mainBaner{
+	text-align: center;
+	margin-top: 50px;
+
+}
+.baner1{
+	display: inline-block;
+	margin-right: 200px;
+}
+.baner2{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+.bannerCarrousel{
+	margin: 50px 0px;
+}
+.categorias{
+	text-align: center;	
+}
+.categorias img{
+	display: inline-block;
+}
+.tamano{
+	width: 400px;
+	display: inline-block;
+	margin: 0px 60px;
+}
+footer{
+	background: pink;
+	margin-top: 50px;
+}
+footer img{
+	height: 300px;
+}
