@@ -1,17 +1,21 @@
-header.logo{
+header.logo {
     text-align: center;
 }
-.logo img{
+
+.logo img {
 	display: inline-block;
 	vertical-align: middle;
 }
-.logo1{
+
+.logo1 {
 	margin-right: 400px;
 }
-.logo2{
+
+.logo2 {
 	margin-left: 400px;
 }
-h1{
+
+h1 {
 	display: inline-block;
 	color: hotpink;
 	font-size: 50px;
@@ -19,11 +23,13 @@ h1{
     margin: 0px;
     display: inline-block;
 }
-.navBar{
+
+.navBar {
 	text-align: center;
 	margin-top: 20px;
 }
-a{
+
+a {
 /*	box-sizing: border-box; el padding y border de ese elemento no incrementan su ancho */
 	text-decoration: none;
 	background: black;
@@ -31,50 +37,61 @@ a{
 	padding: 2px 50px;
 	margin-left: 50px;
 }
-.home{
+
+.home {
 	margin-left: 0px;
 }
-.container{
-	width: auto;
+
+.container {
+/*	width: auto;*/
 	margin: auto;
 }
-section.mainBaner{
+
+section.mainBaner {
 	text-align: center;
 	margin-top: 50px;
-
 }
-.baner1{
+
+.baner1 {
 	display: inline-block;
 	margin-right: 200px;
 }
-.baner2{
+
+.baner2 {
 	display: inline-block;
 }
-.bannerCarrousel{
+
+.bannerCarrousel {
 	text-align: center;
 	margin: 40px 0px;
 }
-.categorias{
+
+.categorias {
 	text-align: center;	
 }
-.categorias img{
+
+.categorias img {
 	display: inline-block;
 }
-.tamano{
+
+.tamano {
 	width: 400px;
 	display: inline-block;
 	margin: 0px 60px;
 }
-footer{
+
+footer {
 	max-width: 1000px;
 	height: 300px;
 	background: pink;
 	margin: auto;
 }
-footer img{
+
+footer img {
 	height: 200px;
-	margin: auto;
+/*	margin: auto;*/
 }
-figure{
+
+figure {
 	margin-top: 70px;
 }

@@ -8,7 +8,7 @@ body{
 	height: 440px;
 	margin: auto;
 }
-.newsLetter{
+.newsletter{
 	text-align: center;
 	margin-top: 20px;
 }
@@ -18,11 +18,11 @@ body{
 	margin-right: 10px;
 }
 .email{
-	border: solid 1px;
+	border: 1px solid;
     padding: 5px 40px;
 }
 .boton{
-	border: solid 1px;
+	border: 1px solid;
     padding: 5px 30px;
     margin-left: 32px;
     background: darkgray;
