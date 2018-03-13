@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+nav{
+	border-bottom: 1px solid hotpink;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	display: inline-block;
+	background: #dddddd;
+}
+ul{
+	float: right;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+.logo{
+	width: 90px;
+	height: auto;
+	vertical-align: middle;
+	margin: 10px 0px 10px 177px;
+}
+.logo:hover{
+	cursor: pointer;
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+a{
+	text-decoration: none;
+	color: hotpink;
+	font-family: : Helvetica;
+	font-size: 20px;
+}
+a:hover{
+	cursor: pointer;
+	color: black;
+}
+.listado{
+	padding: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  width: 90%;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+p{
+	margin: 0px;
+	padding: 0px;
+}
+.producto{
+	text-align: center;
+  margin: 39px;
+  padding: 0px;
+  width: 250px;
+}
+.price{
+  margin: 15px 30px 0px 0px;
+	font-size: 20px;
+	display: inline-block;
+}
+.name{
+	background-color: pink;
+}
+.comprar{
+	display: inline-block;
+	border: none;
+  background: black;
+  padding: 5px;
+  margin-top: 15px;
+  width: 83px;
+  color: pink;
+  font-size: 15px;
+}
+.comprar:hover{
+	background: pink;
+	color: black;
+}
+figure{
+	margin: 0px;
+  padding-top: 10px
+}
+.fotoProducto{
+	width: 80%;
+  margin: 0px;
+}
+.boxs{
+	text-align: center;
+}
+.box1, .box2, .box3{
+	padding-right: 100px;
+	display: inline-block;
+}
+.box3{
+	padding-right: 0px;
+}
+footer{
+	margin-top: 20px;
+	border-top: 1px solid hotpink;
+	background: #dddddd;
+	width: auto;
+	height: 100px;
+}
