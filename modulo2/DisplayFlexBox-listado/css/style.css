@@ -14,25 +14,33 @@ nav, .search, li{
  display: inline-block;
 }
 ul{
- padding: 0px;
- margin:0px;
- position: absolute;
- top: 22px;
+  padding: 0px;
+  margin:0px;
+  position: absolute;
+  top: 22px;
   left: 80px;
 }
 nav li{
- text-decoration:none;
- list-style:none;
- color: #fff;
+  text-decoration:none;
+  list-style:none;
 }
-.home, .libros{
- color: #febd69;
+.atras{
+  color: #febd69;
+  text-decoration:none;
+}
+.here{
+  color: #fff;
+  text-decoration:none;
+}
+a:hover{
+  cursor: pointer;
+  color: #e4a95c;
 }
 .flecha{
- color: #fff;
+  color: #fff;
 }
 .search{
- float: right;
+  float: right;
   margin: 16px 100px;
 }
 .busqueda{
@@ -65,7 +73,7 @@ nav li{
    padding: 5px;
    width: 1400px; 
    height:100%;  
-   display: flex;
+   display: flex; 
    flex-flow: row wrap;
    align-content: center;
    margin-left: 10%;
