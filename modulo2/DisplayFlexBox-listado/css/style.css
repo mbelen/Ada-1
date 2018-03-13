@@ -1,0 +1,114 @@
+body{
+ margin:0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-family: Helvetica;
+}
+header{
+ background: #232f3e;
+ position: fixed;
+ width: 100%;
+  top: 0px;
+}
+nav, .search, li{
+ display: inline-block;
+}
+ul{
+ padding: 0px;
+ margin:0px;
+ position: absolute;
+ top: 22px;
+  left: 80px;
+}
+nav li{
+ text-decoration:none;
+ list-style:none;
+ color: #fff;
+}
+.home, .libros{
+ color: #febd69;
+}
+.flecha{
+ color: #fff;
+}
+.search{
+ float: right;
+  margin: 16px 100px;
+}
+.busqueda{
+  height: 30px;
+  width: 180px;
+  padding-left: 5px;
+  border: none;
+  border-radius: 0px;
+}
+.boton{
+  background: #febd69;
+  border: none;
+  border-radius: 0px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  position: relative;
+  right: 4px;
+}
+.boton:hover{
+ cursor: pointer;
+ background: #e4a95c;
+}
+.fas{
+  left: 4px;
+  color: #232f3e;
+}
+.listado{
+   margin-top: 65px; 
+   padding: 5px;
+   width: 1400px; 
+   height:100%;  
+   display: flex;
+   flex-flow: row wrap;
+   align-content: center;
+   margin-left: 10%;
+ }
+ .producto{
+   text-align: center;
+   margin: 39px;
+   padding: 0px;
+   border: 1px solid #febd69;
+   width: 250px;
+ }
+img{
+  width: 60%; 
+  margin: 0px;
+}
+figure{
+  margin:0px;
+  padding-top: 10px;
+}
+.data {
+  padding: 0px;
+}
+h4{
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+p{
+  color: #232f3e;
+  font-size: 30px;
+  margin: 20px;
+}
+.comprar {
+  background-color: #febd69;
+  margin-top: 5px;
+  border: none;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.comprar:hover{
+  cursor: pointer;
+  background: #e4a95c;
+  font-size: 18px;
+}
