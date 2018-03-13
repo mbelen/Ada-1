@@ -4,28 +4,28 @@
 	box-sizing: border-box;
 	font-size: 0px;
 }
-figure, nav, .banner, .sideBar, .bodyArea, footer{
+.logo, figure, nav, .banner, .sideBar, .bodyArea, footer{
 	background: #dddddd;
+	width: 80%;
+	text-align: center;
+	margin-left: 10%;
 }
 figure{
 	height: 100px;
-  width: auto;
   margin-right: 0px;
   margin-left: 0px;
 }
 figure p{
 	line-height: 100px;
 }
-nav{
+.navBar{
 	margin-top: 20px;
 	height: 50px;
-  width: auto;
 }
 nav p{
 	line-height: 50px;
 }
 .banner{
-	width: auto;
   height: 300px;
   margin-top: 20px;
 }
@@ -44,16 +44,15 @@ nav p{
 }
 .bodyArea{
 	display: inline-block;
-	width: calc(70% - 20px);
+	width: calc(50% - 20px);
   height: 1000px;
-  margin-top: 20px;
+  margin: auto;
 }
 .bodyArea p{
 	line-height: 1000px;
 }
 footer{
 	height: 100px;
-  width: auto;
   margin-top: 20px;
 }
 footer p{
