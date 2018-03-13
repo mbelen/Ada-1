@@ -6,9 +6,10 @@ body{
 }
 header{
  background: #232f3e;
- position: fixed;
+ position: sticky;
  width: 100%;
  top: 0px;
+ height: 60px;
 }
 nav, .search, li{
  display: inline-block;
@@ -75,7 +76,7 @@ a:hover{
    align-content: center;
    width: 90%;  
    justify-content: space-between;
-   margin: 65px auto;
+   margin: auto;
  }
  .producto{
    text-align: center;
