@@ -1,8 +1,15 @@
-.mainBaner{
+.container{
 	text-align: center;
-	width: 1480px;
-	height: 440px;
+	max-width: 1480px;
+	max-height: 440px;
 	margin: auto;
+}
+figure{
+	margin: 0px;
+	padding:0px;
+}
+.mainBaner img{
+	width: 100%;
 }
 .formulario{
 	text-align: center;
@@ -22,7 +29,7 @@
 }
 .boton{
 	border: 1px solid;
-  padding: 5px 30px;
+  padding: 7px 30px;
   margin-left: 11px;
   font-size: 12px;
   background: #dca7c4;
@@ -33,11 +40,16 @@
 	cursor: pointer;
 	background: #a69ec5;
 }
+.container2{
+	max-width: 1480px;
+	margin: auto;
+}
 .redesSociales{
-	margin-right: 100px;
+	margin-right: 20px;
+	position: relative;
+	text-align: right;
 }
 a{
-	float: right;
 	font-size: 36px;
 	color: black;
 	padding-left: 20px;
@@ -52,5 +64,16 @@ a:hover{
 	text-align: center;
 }
 .text{
-	margin-top: 300px;
+	margin-top: 20%;
+}
+
+@media (max-width: 522px) {
+.formulario p{
+	display: block;
+}
+.redesSociales{
+	margin-top: 20px;
+	position: initial;
+	text-align: center;
+}
 }
