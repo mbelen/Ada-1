@@ -1,5 +1,5 @@
 header.logo {
-    text-align: center;
+	text-align: center;
 }
 
 .logo img {
@@ -8,11 +8,11 @@ header.logo {
 }
 
 .logo1 {
-	margin-right: 400px;
+ float: left;
 }
 
 .logo2 {
-	margin-left: 400px;
+	float: right;
 }
 
 h1 {
@@ -20,13 +20,14 @@ h1 {
 	color: hotpink;
 	font-size: 50px;
 	padding: 0px;
-    margin: 0px;
-    display: inline-block;
+  margin: 0px;
 }
 
 .navBar {
 	text-align: center;
 	margin-top: 20px;
+	clear: right;
+	justify-content: flex-start;
 }
 
 a {
@@ -52,18 +53,25 @@ section.mainBaner {
 	margin-top: 50px;
 }
 
-.baner1 {
+.baner1, .baner2 {
+	background: violet;
+  width: 300px;
+  height: 400px;
 	display: inline-block;
 	margin-right: 200px;
+	justify-content: flex-start;
 }
 
 .baner2 {
-	display: inline-block;
+	margin-right: 0px;
 }
 
 .bannerCarrousel {
 	text-align: center;
 	margin: 40px 0px;
+	background: black;
+	width: auto;
+  height: 200px;
 }
 
 .categorias {
@@ -75,9 +83,12 @@ section.mainBaner {
 }
 
 .tamano {
+	background: hotpink;
 	width: 400px;
+	height: 600px;
 	display: inline-block;
-	margin: 0px 60px;
+	margin: 0px 30px;
+	justify-content: flex-start;
 }
 
 footer {
@@ -89,9 +100,100 @@ footer {
 
 footer img {
 	height: 200px;
-/*	margin: auto;*/
 }
 
 figure {
 	margin-top: 70px;
+}
+
+@media all and (max-width: 826px) 
+{
+header{
+	background: black;
+	width: auto;
+	height: 100px;	
+}
+.logo1 {
+	float: left;
+	width: 20%;
+	height: auto;
+	margin-right: 25%;
+	margin: 10px 20px;
+}
+img.logo2 {
+	display: none;
+}
+
+header h1 {
+	padding: 20px 0px;
+	display: inline-block;
+	color: hotpink;
+	font-size: 40px;
+  margin: 0px;
+}
+
+.navBar {
+	position: absolute;
+	top: 30%;
+	right: 0px;
+	width: 150px;
+	background: black;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	padding: 5px 50px;
+	margin-left: 0px;
+}
+
+.container {
+	margin: 0px;
+	width: auto;
+}
+
+section.mainBaner {
+	margin-top: 5px;
+}
+
+.baner1 {
+	background: violet;
+	margin: auto;
+	padding: 0px;
+  width: 90%;
+  height: 460px;
+}
+.baner2{
+	display: none;
+}
+
+section.bannerCarrousel {
+	margin: 5px auto;
+	background: black;
+	padding: 0px;
+  width: 90%;
+  height: 100px;
+}
+
+.tamano {
+ display: none;
+}
+
+footer {
+	width: 90%;
+	height: 150px;
+	background: pink;
+	margin: auto;
+}
+
+footer img {
+	margin: 20px 0px 0px 0px;
+	height: 100px;
+}
+
+figure {
+	margin-top: 0px;
+}
+
 }
