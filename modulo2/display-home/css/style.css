@@ -130,21 +130,31 @@ header h1 {
 	color: hotpink;
 	font-size: 40px;
   margin: 0px;
+  position: absolute;
+  right: 26px;
 }
 
 .navBar {
+	text-align: center;
+	margin-top: 20px;
 	position: absolute;
 	top: 30%;
 	right: 0px;
 	width: 150px;
 	background: black;
+	justify-content: flex-start;
 }
 
 a {
-	text-decoration: none;
 	display: block;
+	text-decoration: none;
+	background: none;
 	color: #fff;
-	padding: 5px 50px;
+	padding: 2px 0px;
+	margin-left: 0px;
+}
+
+.home {
 	margin-left: 0px;
 }
 
