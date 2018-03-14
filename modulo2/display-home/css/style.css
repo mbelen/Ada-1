@@ -46,6 +46,7 @@ a {
 .container {
 /*	width: auto;*/
 	margin: auto;
+	width: 90%;
 }
 
 section.mainBaner {
@@ -58,7 +59,7 @@ section.mainBaner {
   width: 300px;
   height: 400px;
 	display: inline-block;
-	margin-right: 200px;
+	margin-right: 10%;
 	justify-content: flex-start;
 }
 
@@ -106,13 +107,14 @@ figure {
 	margin-top: 70px;
 }
 
-@media all and (max-width: 826px) 
+@media screen and (max-width: 826px) 
 {
 header{
 	background: black;
 	width: auto;
 	height: 100px;	
 }
+
 .logo1 {
 	float: left;
 	width: 20%;
@@ -120,6 +122,7 @@ header{
 	margin-right: 25%;
 	margin: 10px 20px;
 }
+
 img.logo2 {
 	display: none;
 }
@@ -133,6 +136,7 @@ header h1 {
   position: absolute;
   right: 26px;
 }
+
 
 .navBar {
 	text-align: center;
@@ -174,6 +178,7 @@ section.mainBaner {
   width: 90%;
   height: 460px;
 }
+
 .baner2{
 	display: none;
 }
@@ -205,5 +210,4 @@ footer img {
 figure {
 	margin-top: 0px;
 }
-
 }
