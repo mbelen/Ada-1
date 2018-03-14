@@ -1,6 +1,5 @@
 .mainBaner{
 	text-align: center;
-	background-color: pink; 
 	width: 1480px;
 	height: 440px;
 	margin: auto;
@@ -16,7 +15,7 @@
 	font-family: 'Pacifico', cursive;
 }
 .email{
-	border: 1px solid;
+	border: 1px solid ;
   padding: 5px;
   width: 200px;
   font-size: 14px;
@@ -26,13 +25,13 @@
   padding: 5px 30px;
   margin-left: 11px;
   font-size: 12px;
-  background: #660435;
+  background: #dca7c4;
   border-radius: 5px;
   color: #fff;
 }
 .boton:hover{
 	cursor: pointer;
-	background: #8a0749;
+	background: #a69ec5;
 }
 .redesSociales{
 	margin-right: 100px;
@@ -42,11 +41,11 @@ a{
 	font-size: 36px;
 	color: black;
 	padding-left: 20px;
-	color: #660435;
+	color: #dca7c4;
 }
 a:hover{
 	cursor: pointer;
-	color: #8a0749;
+	color: #a69ec5;
 }
 .text p{
 	clear: right;
