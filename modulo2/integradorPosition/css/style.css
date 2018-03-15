@@ -1,0 +1,36 @@
+.tamano{
+	width: 264px;
+	height: 264px;
+}
+.rojo{
+	background: red;
+}
+.gris{
+	background: #f1f1f1;
+}
+img{
+	position: relative;
+}
+.absol{
+	position: absolute;
+}
+.margin1, .margin4, .margin7{
+	left: 280px;
+}
+.margin2, .margin5, .margin6{
+	left: 553px;
+}
+.margin3, .margin4, .margin5{
+	top: 280px;
+}
+.margin6, .margin7, .margin8{
+	top: 553px;
+}
+.img1{
+  left: 280px;
+}
+.img2{
+	top: 280px;
+  right: 260px;
+}
+
