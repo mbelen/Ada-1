@@ -1,0 +1,45 @@
+ul{
+	display: inline-block;
+}
+.historia a{
+	text-decoration: none;
+	list-style: none;
+	color: blue;
+}
+li{
+	display: inline-block;
+}
+li .promo{
+	color: black;
+}
+nav{
+	display: inline-block;
+	float: right;
+	margin-top: 9px;
+}
+nav img{
+	height: 30px;
+}
+.listado{
+	max-width: 60%;
+	text-align: center;
+	margin: 60px auto;
+}
+.producto{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+}
+.producto img{
+	width: 200px;
+}
+.producto span{
+	display: block;
+	text-align: center;
+}
+
+@media (max-width: 480px) {
+.producto img{
+	width: 180px;
+}
+}
