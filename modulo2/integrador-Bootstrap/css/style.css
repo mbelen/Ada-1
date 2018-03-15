@@ -1,0 +1,73 @@
+.fondo{
+	background: black;
+}
+.height{
+	height: 400px;
+}
+.gris{
+	background-color: #cccccc;
+}
+.amarillo{
+	background-color: #ffff00;
+}
+.celeste{
+	background-color: #00ffff;
+}
+.verde{
+	background-color: #00ff00;
+}
+.rosa{
+	background-color: #ff00ff;
+}
+.rojo{
+	background-color: #ff0000;
+}
+.azul{
+	background-color: #0000ff;
+}
+.height2{
+	height: 50px;
+}
+.negro{
+	background-color: #000000;
+}
+.height3{
+	height: 50px;
+}
+.blne{
+	background: linear-gradient(to right, white, black)
+}
+.negro1{
+ background-color: #121212;
+}
+.negro2{
+	background: #303030;
+}
+.negro3{
+ background-color: #4b4b4b;
+}
+.negro4{
+	background: #666666;
+}
+.negro5{
+ background-color: #808080;
+}
+.negro6{
+	background: #9a9a9a;
+}
+.negro7{
+ background-color: #b4b4b4;
+}
+.negro8{
+	background: #cdcdcd;
+}
+.negro9{
+ background-color: #e6e6e6;
+}
+.negro10{
+	background: #f1f0f0;
+}
+.negro11{
+	background: #ffffff;
+}
+
