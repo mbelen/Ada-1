@@ -1,37 +1,42 @@
+body{
+ padding-top: 15px;
+}
 *{
-	margin:0;
-	box-sizing: border-box;
+ margin:0;
+ box-sizing: border-box;
 }
 .container{
-	width: 90%;
-	margin: auto;
+ width: 90%;
+ margin: auto;
 }
 span{
-	margin: 0px 10px;
+ margin: 0px 10px;
 }
 .name{
-	font-size: 17px;
-	color: hotpink;
+ font-size: 15px;
+ color: hotpink;
+ vertical-align: middle;
 }
-.name2{
-	font-size: 17px;
-	color: black;
+.blacked{
+ color: black;
 }
 
 .flecha{
-	color: black;
+ color: black;
 }
 .listado{
-	margin-top: 50px;
+ margin-top: 50px;
 }
 .cartera{
-	width: 200px;
-	height: 200px;
-	border: 1px solid pink;
+ width: 200px;
+ height: 200px;
+ border: 1px solid pink;
+ margin-left: 20%;
 }
 .price{
-	background: hotpink;
-	width: 200px;
-	padding: 10px 0px;
-	text-align: center;
+ background: hotpink;
+ width: 200px;
+ padding: 10px 0px;
+ text-align: center;
+ margin-left: 20%;
 }
